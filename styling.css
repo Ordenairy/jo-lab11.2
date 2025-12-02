@@ -1,0 +1,65 @@
+body{
+    background:#ecd09b;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #7c0a01;
+    padding: 10px 20px;
+    border: 5px solid #3d0c01;
+    margin-bottom: 1cm;
+}
+
+.header-left, .header-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Company name*/
+h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: white;
+    margin-bottom: 10px;
+}
+
+/*Subheader links*/
+h2, nav a:hover {
+    word-spacing: 1cm;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+
+}
+
+/*logo placement*/
+#logo{
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/*footer design*/
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background: #7c0a01;
+    color: white;
+    border-top: 5px solid #3d0c01;
+}
+
+p {
+    text-align: center;
+}
